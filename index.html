@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles.css">
   <title>Intention Timer</title>
 </head>
 <body>
@@ -24,9 +25,9 @@
         <input type="text" name="to-do" id="toDo">
       </section>
       <section class="section--timer">
-        <h3>How Long?</h3>
+        <h3 class="">How Long?</h3>
         <label for="minutes">Minutes</label>
-        <select>
+        <select class="select--minutes">
           <option value="1">1 minute</option>
           <option value="2">2 minutes</option>
           <option value="3">3 minutes</option>
@@ -34,14 +35,13 @@
           <option value="5">5 minutes</option>
         </select>
         <label for="minutes">seconds</label>
-        <select>
+        <select class="select--seconds">
           <option value="00">00 seconds</option>
           <option value="15">15 seconds</option>
           <option value="30">30 seconds</option>
           <option value="45">45 seconds</option>
         </select>
       </section>
-
     </form>
   </main>
   <aside>
