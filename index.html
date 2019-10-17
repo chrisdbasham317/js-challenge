@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Intention Timer</title>
+</head>
+<body>
+  <header>
+    <h1>Intention Timer</h1>
+  </header>
+  <main>
+    <h2>New Activity</h2>
+    <form>
+      <section class="section--categories">
+        <label for="category">Select A Category</label>
+        <input type="radio" name="category" id="study">Study
+        <input type="radio" name="category" id="meditate">Meditate
+        <input type="radio" name="category" id="exercise">Exercise
+      </section>
+      <section class="section--to-do">
+        <label for="to-do">What would you like to do during this time?</label>
+        <input type="text" name="to-do" id="toDo">
+      </section>
+      <section class="section--timer">
+        <h3>How Long?</h3>
+        <label for="minutes">Minutes</label>
+        <select>
+          <option value="1">1 minute</option>
+          <option value="2">2 minutes</option>
+          <option value="3">3 minutes</option>
+          <option value="4">4 minutes</option>
+          <option value="5">5 minutes</option>
+        </select>
+        <label for="minutes">seconds</label>
+        <select>
+          <option value="00">00 seconds</option>
+          <option value="15">15 seconds</option>
+          <option value="30">30 seconds</option>
+          <option value="45">45 seconds</option>
+        </select>
+      </section>
+
+    </form>
+  </main>
+  <aside>
+    <h1>Past Activities</h1>
+  </aside>
+  
+</body>
+<script src="./main.js"></script>
+</html>
